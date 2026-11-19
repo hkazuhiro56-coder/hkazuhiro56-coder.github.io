@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>和博 | 自己紹介</title>
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --card: #ffffff;
+    --ink: #1f2a36;
+    --sub: #5b6672;
+    --accent: #1f7a5a;
+    --line: #e3dfd6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.8;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .avatar {
+    width: 96px; height: 96px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    display: grid; place-items: center;
+    font-size: 40px; font-weight: 700;
+    margin: 0 auto 16px;
+  }
+  h1 { font-size: 28px; letter-spacing: 0.05em; }
+  .tagline { color: var(--sub); margin-top: 4px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 17px;
+    color: var(--accent);
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-left: 4px solid var(--accent);
+  }
+  ul { list-style: none; }
+  li { padding: 6px 0; border-bottom: 1px dashed var(--line); }
+  li:last-child { border-bottom: none; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    background: #e8f3ee; color: var(--accent);
+    padding: 4px 12px; border-radius: 999px; font-size: 14px;
+  }
+  footer { text-align: center; color: var(--sub); font-size: 13px; margin-top: 32px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">和</div>
+      <h1>和博</h1>
+      <p class="tagline">鉄道車両メンテナンス × IT・DX</p>
+    </header>
+
+    <section>
+      <h2>はじめまして</h2>
+      <p>岩手県盛岡市を拠点に、鉄道車両のメンテナンスに携わっています。現場の検査・修繕から本社での企画・管理業務まで、11年以上の経験があります。最近はAIやプログラミングを使って、仕事や暮らしを便利にするツールづくりに取り組んでいます。</p>
+    </section>
+
+    <section>
+      <h2>経歴</h2>
+      <ul>
+        <li>鉄道車両の検査・修繕（現場作業）</li>
+        <li>本社での事務・企画業務</li>
+        <li>契約管理</li>
+        <li>設備管理</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>資格</h2>
+      <ul>
+        <li>鉄道車両整備技能者 1級</li>
+        <li>ITパスポート</li>
+        <li>各種機械操作の免許</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>取り組んでいること</h2>
+      <div class="tags">
+        <span class="tag">React</span>
+        <span class="tag">AI活用</span>
+        <span class="tag">業務のDX</span>
+        <span class="tag">ツール開発</span>
+        <span class="tag">Git / GitHub</span>
+      </div>
+    </section>
+
+    <footer>© 2026 和博</footer>
+  </div>
+</body>
+</html>
